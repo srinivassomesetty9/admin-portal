@@ -1,0 +1,43 @@
+   .Title{
+     font-weight: 700;
+     font-size: larger;
+     margin: 10px 20px;
+   }
+   .featured{
+     display: flex;
+     width: 100%;
+     justify-content:space-between;
+     
+   }
+   .featuredItem{
+     flex: 1;
+     margin: 20px 20px;
+     padding:20px;
+     border-radius: 10px;
+     cursor: pointer;
+     box-shadow: 1px 1px 6px 1px rgb(229, 229, 229);
+   }
+ 
+   .featuredTitle{
+     font-size: 15px;
+     color:darkgrey;    
+   }
+  .featuredContainer{
+     font-size: 28px;
+     font-weight: 500;
+     display: flex;
+   }
+   .featuredRate{
+     font-size: 12px;
+     font-weight: 500;
+     color:rgb(102, 219, 168);
+   }
+   .featuredMonth{
+     color:darkgrey;
+     font-weight: 400;
+   }
+   .featuredDown{
+     color:red;
+     font-size: 12px;
+     font-weight: 500;
+   } 

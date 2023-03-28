@@ -1,0 +1,30 @@
+.sidebar{
+    flex: 0.5;
+    background-color: rgb(221, 211, 211);
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+.sidebarWrapper{
+    padding: 10px;
+    color: rgb(113, 110, 116);
+}
+.sidebarTitle{
+    font-size: large;
+    color: black;
+}
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarListItem{
+    padding: 5px;
+    border-radius: 10px;
+}
+.sidebarListItem.active,
+.sidebarListItem:hover{
+    background-color: rgb(199, 199, 209);
+}
+.bi{
+    margin-right: 5px;
+}
